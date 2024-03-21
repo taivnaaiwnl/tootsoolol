@@ -1,13 +1,10 @@
 import random
 import string
 
-WORDLIST_FILENAME = "words.txt"
+WORDLIST_FILENAME = "data.txt"
 
 
 def loadWords():
-    """
-    Returns a list of valid words. Words are strings of lowercase letters.
-    """
     print("Loading word list from file...")
     with open(WORDLIST_FILENAME, 'r') as inFile:
         wordlist = inFile.readline().split()
