@@ -46,7 +46,7 @@ def brute_force_cow_transport(cows, limit=10):
 
 
 def compare_cow_transport_algorithms():
-    cows = load_cows("ps1_cow_data.txt")
+    cows = load_cows("ps1_cow_data_2.txt")
     start = time.time()
     print(greedy_cow_transport(cows))
     end = time.time()
